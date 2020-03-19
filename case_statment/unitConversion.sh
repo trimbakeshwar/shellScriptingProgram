@@ -16,10 +16,10 @@ case $choice in
 		echo $meter ;;
 	3)
 		read -p "enter inch: " inch
-     	feet=`echo "(($inch*0.0833))" | bc`
-      echo $feet ;;
+		feet=`echo "(($inch*0.0833))" | bc`
+		echo $feet ;;
 	4)
 		read -p "enter meter: " meter
-      feet=`echo "(($meter*3.281))" | bc`
-      echo $feet ;;
+		feet=`echo "(($meter*3.281))" | bc`
+		echo $feet ;;
 esac
