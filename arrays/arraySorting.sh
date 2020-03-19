@@ -2,20 +2,19 @@
 read -p "enter size of array" size
 function sortingArray(){
 temp=0
-#${array[@]}
 for (( i=0; i<$size; i++ ))
 do
-   for (( j=$i+1; j<$size; j++ ))
-   do
-      if [ ${array[i]} -gt ${array[j]} ]
-      then
-         temp=${array[i]}
-         array[$i]=${array[j]}
-         array[$j]=$temp
-      fi
-   done
+	for (( j=$i+1; j<$size; j++ ))
+	do
+		if [ ${array[i]} -gt ${array[j]} ]
+		then
+			temp=${array[i]}
+			array[$i]=${array[j]}
+			array[$j]=$temp
+		fi
+	done
 done
-  
+ 
 }
 
 count=0
