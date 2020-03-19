@@ -2,7 +2,7 @@
 read -p "enter single digit number= " x
 case $x in
 	 1)
-			echo one ;;
+         echo one ;;
 	 2)
          echo two ;;
 	 3)
