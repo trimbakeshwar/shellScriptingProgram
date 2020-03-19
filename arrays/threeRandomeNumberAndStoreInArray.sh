@@ -6,11 +6,11 @@ firstHighest=${array[0]}
 secondHighest=0
 for (( i=0; i<$size; i++ ))
 do
-		if [[ ${array[i]} > $firstHighest ]]
-		then
-			secondHighest=$firstHighest
-			firstHighest=${array[i]}
-		fi
+	if [[ ${array[i]} > $firstHighest ]]
+	then
+		secondHighest=$firstHighest
+		firstHighest=${array[i]}
+	fi
    if [ ${array[i]} -ne $firstHighest ] && [ ${array[i]} -gt $secondHighest ]
    then
       secondHighest=${array[i]}
@@ -24,11 +24,11 @@ firstSmallest=${array[0]}
 secondSmallest=0
 for (( i=0; i<$size; i++ ))
 do
-     if [[ ${array[i]} < $firstSmallest ]]
-     then
-         secondSmallest=$firstSmallest
-         firstSmallest=${array[i]}
-     fi
+	if [[ ${array[i]} < $firstSmallest ]]
+   then
+	   secondSmallest=$firstSmallest
+      firstSmallest=${array[i]}
+   fi
    if [ ${array[i]} -ne $firstSmallest ] && [ ${array[i]} -lt $secondSmallest ]
    then
       secondSmallest=${array[i]}
@@ -45,6 +45,6 @@ echo "sec smallest" $secondSmallest
      array[((count++))]="$randomeNum"
   done
      echo ${array[@]}
- secSmallest ${array[@]}
+ 	secSmallest ${array[@]}
 	secondHighElement ${array[@]}
 
