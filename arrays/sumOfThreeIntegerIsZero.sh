@@ -26,7 +26,7 @@ do
 	read -p "enter element" element
 	array[((count++))]=$element
 done
-echo ${array[@]}
+	echo ${array[@]}
 
 checkSumOfElement ${array[@]}
 
