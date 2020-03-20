@@ -2,8 +2,8 @@
 
 randome=$((RANDOM%2))
 if [ $randome -eq 1 ]
-	then
-		echo "head"
+then
+	echo "head"
 else
-		echo "tail"
-	fi
+	echo "tail"
+fi
