@@ -1,7 +1,7 @@
 #!/bin/bash 
 declare -A result
 rollDie=0
-nax=0
+max=0
 while [[ result[$rollDie] -le 9 ]]
 do
 	rollDie=$((RANDOM%6+1))
@@ -12,7 +12,7 @@ then
 fi
 done
 	echo "${!result[@]}     ${result[@]}"
-min=${result[1]}
+	min=${result[1]}
 
 for (( i=1; i<=6; i++ ))
 do
