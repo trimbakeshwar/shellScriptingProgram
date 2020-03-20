@@ -1,7 +1,7 @@
 #!/bin/bash -x
 firstNumber=$((RANDOM%6 +1))
-   	a=$firstNumber;
+   a=$firstNumber;
 secNumber=$((RANDOM%6 +1))
-   	b=$secNumber;
-		    	add=$(($a + $b));
-				echo $add;
+   b=$secNumber;
+	add=$(($a + $b));
+	echo $add;
