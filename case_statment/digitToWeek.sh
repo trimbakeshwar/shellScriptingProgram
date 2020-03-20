@@ -1,9 +1,9 @@
 #!/bin/bash -x
 read -p "enter day " x
 case $x in
-	0)
+   0)
         echo sunday ;; 
-	1)
+   1)
         echo monday ;;
    2)
         echo tusday ;;
