@@ -2,10 +2,10 @@
 read -p "enter single digit number= " x
 if [ $x -eq 1 ]
  then 
-	echo one
+   echo one
 elif [ $x -eq 2 ]
 then 
-	echo two
+   echo two
 elif [ $x -eq 3 ]
 then 
    echo three
