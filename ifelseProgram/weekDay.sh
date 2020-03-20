@@ -2,10 +2,10 @@ read -p "enter number 1 - 7= " x
 
 if [ $x -eq 1 ]
  then 
-	echo sunday
+   echo sunday
 elif [ $x -eq 2 ]
 then 
-	echo monday
+   echo monday
 elif [ $x -eq 3 ]
 then 
    echo tuseday
@@ -19,6 +19,6 @@ elif [ $x -eq 6 ]
 then 
    echo frieday
 else
- echo saturday
+   echo saturday
 fi
 
